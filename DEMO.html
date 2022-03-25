@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Payment successful</title>
+	<script src="./js/jquery-3.5.1.min.js"></script>
+	<link  rel="stylesheet" href="css/new_file.css" />
+	<script src="./js/new_file.js"></script>
+</head>
+<body >
+	<div class="dov_cont" style="">
+		<div class="form_div">
+			<div class="div_h1">Payment &nbsp;&nbsp;Submission</div>
+			<ul>
+				<li>
+				<input class="input_form input_formOne"  onblur="inputClick()"  type="text" placeholder="effective Credit card number"/>
+				<p class="p10 form1" style=""></p>
+				</li>
+				<li>
+					<input onblur="inputClick2()" class="input_form input_formTwo" type="text"  placeholder="CVV code "/>
+					<p class="p10 form2" ></p>
+				</li>
+				<li>
+					<input onblur="newming()" class="input_form input_ming" type="text" placeholder="First name"/>
+					<p class="p10 form5" ></p>
+				</li>
+					<li><input class="input_form input_zhong" type="text" placeholder="Middle name"/></li>
+				<li>
+					<input class="input_form input_num" onblur="numns()" type="text" placeholder="Last name "/>
+					<p class="p10 form3" ></p>
+				</li>
+				<li><span class="btns" id="btns" onclick="btns()" >submit</span></li>
+				
+			</ul>
+		
+		</div>
+	</div>
+</body>
+</html>
